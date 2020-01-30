@@ -1,0 +1,13 @@
+#include<stdio.h>
+#define NUM1 25652222
+#define NUM2 55454
+#define NUM3 14245454
+#define MAX(a,b) ((a>b)?a:b)
+int main()
+{
+        if(NUM3>MAX(NUM1,NUM2))
+        printf("Maximum number is %d",NUM3);
+        else
+        printf("Maximum number is %d",MAX(NUM1,NUM2));
+        return 0;
+}
